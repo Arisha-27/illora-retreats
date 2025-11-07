@@ -1011,7 +1011,7 @@ async def chat(req: ChatReq):
                 await broker.broadcast("guest_log_created", {
                     "log_id": log_row.get("Log ID"),
                     "session_id": log_row.get("Session ID"),
-                    "guest_email": log_row.get("Guest Email"),
+                    "guest_email": guest_email,
                     "intent": intent,
                     "ticket_ref": created_ticket_id,
                     "timestamp": log_row.get("Timestamp")

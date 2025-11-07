@@ -1034,7 +1034,6 @@ async def chat(req: ChatReq):
         db.commit(); db.refresh(cm_bot)
 
         # broadcast chat_message
-            # Broadcast chat message
             try:
                 await broker.broadcast("chat_message", {
                     "session_id": req.session_id,

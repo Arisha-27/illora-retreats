@@ -1284,3 +1284,590 @@ Just let me know your choice, and I’ll confirm the order for you. | Intent: paym
 2025-09-30 15:01:33,119 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
 2025-09-30 15:01:43,872 | QAAgent | INFO | Loaded Sheets data on init.
 2025-09-30 15:01:43,874 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 16:08:45,206 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 16:08:45,208 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 16:09:05,763 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 16:09:05,767 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 16:09:18,221 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 16:09:18,223 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:16:26,321 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 17:16:26,321 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:16:43,982 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 17:16:43,983 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:16:54,330 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 17:16:54,332 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:18:18,251 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 17:18:18,252 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:18:30,925 | QAAgent | INFO | Loaded Sheets data on init.
+2025-09-30 17:18:30,926 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-09-30 17:18:50,207 | web | INFO | web | d0c2a72b-1042-42dc-b072-45bc8c34779e | hello | Hello, Karan! Welcome to Ilora Retreats. How may I assist you today? | Intent: greet | Guest: True
+2025-10-01 13:29:18,644 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 13:29:18,647 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-01 13:29:43,008 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 13:29:43,009 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-01 13:29:53,426 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 13:29:53,427 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-01 15:09:52,797 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 15:09:52,798 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-01 15:10:18,243 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 15:10:18,244 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-01 15:10:29,019 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-01 15:10:29,021 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-03 00:27:28,807 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0), using vector fallback.
+2025-10-03 00:27:28,842 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-10-03 00:27:49,844 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-10-03 00:27:49,846 | QAAgent | INFO | FAISS retriever loaded.
+2025-10-03 00:27:49,847 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-03 00:28:11,896 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-03 00:28:11,897 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-03 00:28:29,215 | QAAgent | INFO | Loaded Sheets data on init.
+2025-10-03 00:28:29,216 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-10-03 16:15:15,262 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:15:34,504 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:19:08,085 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Helo
+2025-10-03 16:19:08,085 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:19:23,636 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:20:26,915 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 16:20:26,915 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:20:43,968 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:21:12,249 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hii
+2025-10-03 16:21:12,249 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:21:24,050 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Atharvkumar43@gmail.com
+2025-10-03 16:21:24,050 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:21:36,143 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Atharv@1436
+2025-10-03 16:21:36,143 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:21:54,785 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: atharv@123
+2025-10-03 16:21:54,786 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:22:12,370 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: atharv@123
+2025-10-03 16:22:12,370 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:22:19,643 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Helllo
+2025-10-03 16:22:19,644 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:22:39,746 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Garima@gmail.com
+2025-10-03 16:22:39,746 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:23:01,825 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I am a new user
+2025-10-03 16:23:01,825 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:23:07,579 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hii
+2025-10-03 16:23:07,579 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:23:14,689 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hey
+2025-10-03 16:23:14,690 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:32:00,736 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:32:15,308 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:33:08,697 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 16:33:08,697 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:33:17,307 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: garima@gmail.com
+2025-10-03 16:33:17,307 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:33:31,625 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Garima@123
+2025-10-03 16:33:31,626 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:33:39,935 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: garima@123
+2025-10-03 16:33:39,935 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:33:49,334 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: garima@123
+2025-10-03 16:33:49,334 | TwilioWebhook | INFO | [Stage: password_verify] Processing message for whatsapp:+919569394675
+2025-10-03 16:34:48,850 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:42:43,187 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:42:58,235 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 16:43:53,895 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 16:43:53,895 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 16:44:02,027 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: otp@gmail.com
+2025-10-03 16:44:02,027 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:44:13,703 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: otp@123
+2025-10-03 16:44:13,703 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-03 16:44:24,416 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: OTP Singh
+2025-10-03 16:44:24,417 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:44:39,660 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9454186429
+2025-10-03 16:44:39,660 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-03 16:45:20,710 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Where is ilora retreats located
+2025-10-03 16:45:20,710 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 16:45:20,723 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-03 16:45:20,723 | TwilioWebhook | ERROR | Bot error: IloraRetreatsConciergeBot.ask() got an unexpected keyword argument 'user_identifier'
+2025-10-03 16:45:34,625 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I want to book a luxury tent
+2025-10-03 16:45:34,625 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 16:45:34,632 | TwilioWebhook | INFO | Non-guest intent: payment_request
+2025-10-03 16:45:47,469 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Please show
+2025-10-03 16:45:47,469 | TwilioWebhook | INFO | [Stage: show_property] Processing message for whatsapp:+919569394675
+2025-10-03 16:46:18,645 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 5
+2025-10-03 16:46:18,645 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 16:46:33,551 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 16-12-2025
+2025-10-03 16:46:33,551 | TwilioWebhook | INFO | [Stage: booking_checkin] Processing message for whatsapp:+919569394675
+2025-10-03 16:46:40,143 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 1
+2025-10-03 16:46:40,143 | TwilioWebhook | INFO | [Stage: booking_payment] Processing message for whatsapp:+919569394675
+2025-10-03 16:46:47,009 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Yes
+2025-10-03 16:46:47,009 | TwilioWebhook | INFO | [Stage: booking_confirm] Processing message for whatsapp:+919569394675
+2025-10-03 17:03:39,911 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:03:59,727 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:04:38,119 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 17:04:38,120 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 17:04:55,957 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: jameen@gmail.com
+2025-10-03 17:04:55,957 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:05:12,279 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: jameen@123
+2025-10-03 17:05:12,279 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-03 17:05:23,773 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Jameen Ahmad
+2025-10-03 17:05:23,774 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:05:33,322 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9454186429
+2025-10-03 17:05:33,322 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:05:54,209 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Where is ilora retreats located?
+2025-10-03 17:05:54,209 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:05:54,212 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-03 17:05:54,212 | TwilioWebhook | ERROR | Bot error: IloraRetreatsConciergeBot.ask() got an unexpected keyword argument 'user_identifier'
+2025-10-03 17:06:48,183 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Okay
+2025-10-03 17:06:48,183 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:06:48,185 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-03 17:06:48,185 | TwilioWebhook | ERROR | Bot error: IloraRetreatsConciergeBot.ask() got an unexpected keyword argument 'user_identifier'
+2025-10-03 17:13:43,555 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:13:59,284 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:15:27,181 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Helo
+2025-10-03 17:15:27,182 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 17:15:49,572 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: tarun@gmail.com
+2025-10-03 17:15:49,573 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:16:03,591 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: tarun@123
+2025-10-03 17:16:03,592 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-03 17:16:14,215 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Tarun Soni
+2025-10-03 17:16:14,215 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:16:23,854 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9454186429
+2025-10-03 17:16:23,854 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:16:42,491 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Where is ilora located?
+2025-10-03 17:16:42,491 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:16:42,494 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-03 17:17:11,883 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: What is the checkin and checkout time
+2025-10-03 17:17:11,884 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:17:11,886 | TwilioWebhook | INFO | Non-guest intent: ask_checkin_checkout
+2025-10-03 17:18:00,956 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I didnt get the response
+2025-10-03 17:18:00,956 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:18:00,958 | TwilioWebhook | INFO | Non-guest intent: ask_checkin_checkout
+2025-10-03 17:23:07,299 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:23:20,747 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:24:43,601 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hii
+2025-10-03 17:24:43,602 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 17:24:59,950 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:25:35,397 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 17:25:35,397 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 17:25:54,840 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Parul@gmail.com
+2025-10-03 17:25:54,840 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:26:22,803 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Parul@133
+2025-10-03 17:26:22,803 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-03 17:26:32,264 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Parul Goyal
+2025-10-03 17:26:32,265 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:26:41,307 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9454186429
+2025-10-03 17:26:41,307 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:27:03,677 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Can you show me some photos of ilora retreats
+2025-10-03 17:27:03,677 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:27:03,680 | TwilioWebhook | INFO | Non-guest intent: ask_room_types
+2025-10-03 17:27:29,838 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Please show me
+2025-10-03 17:27:29,838 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:27:29,840 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-03 17:27:54,101 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I want to book a room
+2025-10-03 17:27:54,101 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:27:54,103 | TwilioWebhook | INFO | Non-guest intent: payment_request
+2025-10-03 17:28:13,920 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I want to book a room
+2025-10-03 17:28:13,920 | TwilioWebhook | INFO | [Stage: show_property] Processing message for whatsapp:+919569394675
+2025-10-03 17:28:47,693 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Again show me more photos
+2025-10-03 17:28:47,693 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 17:28:55,221 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 2
+2025-10-03 17:28:55,221 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 17:39:03,620 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:39:33,861 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-03 17:40:16,650 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-03 17:40:16,651 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-03 17:40:31,636 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Aman@gmail.com
+2025-10-03 17:40:31,636 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:40:51,772 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Aman@123
+2025-10-03 17:40:51,773 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-03 17:41:00,470 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Aman Singh
+2025-10-03 17:41:00,471 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:41:10,591 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9454186429
+2025-10-03 17:41:10,591 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-03 17:41:44,736 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Where is ilora located ? Further can you give me details
+2025-10-03 17:41:44,736 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:41:44,739 | TwilioWebhook | INFO | Non-guest intent: payment_request
+2025-10-03 17:41:54,274 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Show
+2025-10-03 17:41:54,274 | TwilioWebhook | INFO | [Stage: show_property] Processing message for whatsapp:+919569394675
+2025-10-03 17:42:42,733 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 3
+2025-10-03 17:42:42,733 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 17:42:53,615 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 15-12-2025
+2025-10-03 17:42:53,616 | TwilioWebhook | INFO | [Stage: booking_checkin] Processing message for whatsapp:+919569394675
+2025-10-03 17:43:01,690 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 1
+2025-10-03 17:43:01,690 | TwilioWebhook | INFO | [Stage: booking_payment] Processing message for whatsapp:+919569394675
+2025-10-03 17:43:07,676 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Yes
+2025-10-03 17:43:07,676 | TwilioWebhook | INFO | [Stage: booking_confirm] Processing message for whatsapp:+919569394675
+2025-10-03 17:43:32,971 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Can you let me know more about the hotel
+2025-10-03 17:43:32,971 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:43:32,973 | TwilioWebhook | INFO | Non-guest intent: ask_room_types
+2025-10-03 17:44:00,279 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: How many types of spa do you offer
+2025-10-03 17:44:00,280 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:44:00,281 | TwilioWebhook | INFO | Non-guest intent: ask_room_types
+2025-10-03 17:44:11,567 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Book
+2025-10-03 17:44:11,567 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-03 17:44:11,569 | TwilioWebhook | INFO | Non-guest intent: book_room
+2025-10-03 17:44:17,328 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Show
+2025-10-03 17:44:17,328 | TwilioWebhook | INFO | [Stage: show_property] Processing message for whatsapp:+919569394675
+2025-10-03 17:44:47,337 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Do you have a pool?
+2025-10-03 17:44:47,338 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 17:45:08,980 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I dont want to stay please tell me do you have a pool
+2025-10-03 17:45:08,981 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-03 17:45:15,618 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: NA
+2025-10-03 17:45:15,618 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-04 13:21:20,254 | TwilioWebhook | WARNING | Could not load room config: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 13:21:33,357 | TwilioWebhook | WARNING | Could not load room config: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 13:22:35,685 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Hello
+2025-10-04 13:22:50,586 | TwilioWebhook | WARNING | Could not load room config: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 13:24:06,923 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Hello
+2025-10-04 13:24:14,896 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: sikh@gmail.com
+2025-10-04 13:24:26,124 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: sikh@123
+2025-10-04 13:24:34,960 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Sikh Singh
+2025-10-04 13:24:46,747 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: 9569394675
+2025-10-04 13:24:59,978 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Hii How are you
+2025-10-04 13:25:24,948 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Can you show me some video
+2025-10-04 13:25:45,140 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Share some photos of ilora
+2025-10-04 13:26:02,716 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Share some photos
+2025-10-04 13:26:25,888 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Show
+2025-10-04 13:26:53,234 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: I want to do a booking
+2025-10-04 13:26:58,451 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Shiw
+2025-10-04 13:27:36,628 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Which photos are you showing me
+2025-10-04 13:27:37,591 | web | INFO | WhatsApp | whatsapp:+919569394675 | Which photos are you showing me | Please enter a valid number of nights. Exiting the flow !!
+Good day. I'm ILORA Concierge at Ilora Retreats. We're a luxury safari camp in Kenya's stunning Masai Mara, offering an unforgettable experience amidst nature's splendor.
+
+You asked which photos I'm showing you, but I believe you meant to ask about our facilities or amenities. If you'd like, I can share some general information about our retreat. We have 14 luxury tents with en-suite bathrooms, private verandas, and modern amenities. Our facilities include a pool, spa, gym, and yoga facilities. We also offer a variety of safari activities, such as game drives, walking safaris, hot air balloon rides, and Maasai cultural experiences.
+
+If you're interested in learning more or making a reservation, I'd be happy to guide you through our booking process. Our full-board rates start around USD 500-650 per night, and it's worth noting that being a registered guest grants you full access to our amenities and services.
+
+Would you like me to share more about our Weekend Buffet Offer, Honeymoon Package Deal, Business Traveler Bonus, or Festival Discount? Or perhaps you'd like to inquire about a specific aspect of our retreat? | Intent: non-guest
+2025-10-04 13:27:56,116 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Bring a coffee to my room
+2025-10-04 13:28:10,279 | web | INFO | WhatsApp | whatsapp:+919569394675 | Bring a coffee to my room | Please enter a valid number of nights. Exiting the flow !!
+Hello there, I'm ILORA Concierge, and I'm delighted to assist you with your inquiry. 
+
+I'm happy to bring a coffee to your room if you were a registered guest at our luxury safari camp. However, as you're not currently a guest, I'd be more than happy to answer your questions about our retreat.
+
+We have 14 luxury tents, each with an en-suite bathroom and private veranda, offering a serene and immersive experience amidst the breathtaking Masai Mara landscape. Our full-board rates start around USD 500-650 per night, and you can enjoy a range of activities, including game drives, walking safaris, hot air balloon rides, and Maasai cultural experiences.
+
+If you're interested in booking a stay with us, I'd encourage you to reach out to our Reservations team directly. They'll be happy to guide you through the process and answer any further questions you may have.
+
+In the meantime, I'd like to invite you to explore our website and learn more about our unique luxury safari experience, which combines comfort, sustainability, and an immersive connection with nature.
+
+How can I assist you further today? Would you like to know more about our weekend buffet offer, honeymoon package deal, business traveler bonus, or festival discount? | Intent: non-guest
+2025-10-04 13:28:24,219 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: 2
+2025-10-04 13:28:36,868 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: 18-12-2025
+2025-10-04 13:28:43,721 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: 1
+2025-10-04 13:28:49,780 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Yes
+2025-10-04 13:29:25,348 | TwilioWebhook | INFO | Incoming from whatsapp:+919569394675: Yes
+2025-10-04 13:50:47,922 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 13:51:00,549 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 13:52:04,167 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-04 13:52:04,167 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-10-04 13:52:17,971 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-04 13:52:17,971 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-04 13:52:30,772 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: amar@gmail.com
+2025-10-04 13:52:30,772 | TwilioWebhook | INFO | [Stage: email_input] Processing message for whatsapp:+919569394675
+2025-10-04 13:52:43,791 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Amar@123
+2025-10-04 13:52:43,791 | TwilioWebhook | INFO | [Stage: password_setup] Processing message for whatsapp:+919569394675
+2025-10-04 13:52:51,778 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Amar Kumar
+2025-10-04 13:52:51,778 | TwilioWebhook | INFO | [Stage: name_input] Processing message for whatsapp:+919569394675
+2025-10-04 13:53:04,546 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: 9569394675
+2025-10-04 13:53:04,546 | TwilioWebhook | INFO | [Stage: phone_input] Processing message for whatsapp:+919569394675
+2025-10-04 13:53:24,467 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Where is ilora located
+2025-10-04 13:53:24,467 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-04 13:53:24,474 | TwilioWebhook | INFO | Non-guest intent: greet
+2025-10-04 13:53:48,889 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: I want to book a room
+2025-10-04 13:53:48,890 | TwilioWebhook | INFO | [Stage: non_guest_chat] Processing message for whatsapp:+919569394675
+2025-10-04 13:53:48,896 | TwilioWebhook | INFO | Non-guest intent: payment_request
+2025-10-04 13:53:53,706 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Show
+2025-10-04 13:53:53,706 | TwilioWebhook | INFO | [Stage: show_property] Processing message for whatsapp:+919569394675
+2025-10-04 13:54:09,800 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: What is the price?
+2025-10-04 13:54:09,800 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-04 13:54:29,562 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: What is the price?
+2025-10-04 13:54:29,562 | TwilioWebhook | INFO | [Stage: booking_nights] Processing message for whatsapp:+919569394675
+2025-10-04 15:06:29,571 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 15:06:53,737 | TwilioWebhook | WARNING | Could not load room config, using defaults: [Errno 2] No such file or directory: 'data\\room_config.json'
+2025-10-04 15:08:31,840 | TwilioWebhook | INFO | Incoming message from whatsapp:+919569394675: Hello
+2025-10-04 15:08:31,840 | TwilioWebhook | INFO | [Stage: welcome] Processing message for whatsapp:+919569394675
+2025-11-03 14:17:47,900 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:17:47,904 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-03 14:18:00,324 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:18:00,325 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-03 14:18:17,091 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:18:17,092 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-03 14:18:30,186 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:18:30,188 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-03 14:18:43,083 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:18:43,084 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-03 14:18:56,391 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-03 14:18:56,392 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 16:51:45,089 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 16:51:45,161 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 16:53:00,946 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 16:53:00,949 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 16:53:00,951 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 16:53:02,173 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 16:53:02,174 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 16:53:13,196 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 16:53:13,214 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 16:53:23,008 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 16:53:23,009 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 16:53:23,009 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 16:53:24,352 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 16:53:24,354 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 16:53:25,747 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 16:53:25,748 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 16:53:25,749 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 16:53:27,069 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 16:53:27,071 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:01:44,759 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:01:44,788 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:01:55,032 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:01:55,032 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:01:55,033 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:01:56,901 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:01:56,902 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:02:02,729 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:02:02,755 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:02:13,488 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:02:13,489 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:02:13,489 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:02:16,186 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:02:16,188 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:02:17,536 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:02:17,537 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:02:17,537 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:02:18,566 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:02:18,568 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:09:44,558 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:09:44,586 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:09:54,408 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:09:54,408 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:09:54,409 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:09:55,585 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:09:55,586 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:10:05,262 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:10:05,280 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:10:25,104 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:10:25,106 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:10:25,107 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:10:26,362 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:10:26,364 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:10:28,397 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:10:28,399 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:10:28,400 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:10:29,854 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:10:29,856 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:15:29,754 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:15:29,768 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:15:41,390 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:15:41,391 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:15:41,391 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:15:42,926 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:15:42,927 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:15:48,788 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:15:48,809 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-04 17:16:00,528 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-04 17:16:00,529 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:16:00,529 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:16:01,968 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:16:01,970 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-04 17:16:03,347 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager, using vector fallback.
+2025-11-04 17:16:03,348 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-04 17:16:03,348 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-04 17:16:04,629 | QAAgent | WARNING | Sheets load failed: 403 Client Error: Forbidden for url: https://script.google.com/macros/s/AKfycbxQjqqC_KM-zKlXAf2fs6B3jUjBBvuIES0a2VA4guZP0rZMR7A8JJGxDIUEzmcSZWFJ/exec?action=getSheetData&sheet=QnA_Manager
+2025-11-04 17:16:04,631 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:49:47,670 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:49:47,673 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:50:00,101 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:50:00,102 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:50:16,743 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:50:16,744 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:50:23,787 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0)
+2025-11-05 13:50:23,787 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:50:42,433 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:50:42,437 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:50:49,482 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0)
+2025-11-05 13:50:49,483 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:53:15,035 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0), using vector fallback.
+2025-11-05 13:53:15,093 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-05 13:53:28,935 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-05 13:53:28,936 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-05 13:53:28,937 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:53:40,731 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:53:40,732 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:53:57,262 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:53:57,263 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:54:08,721 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:54:08,721 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:54:18,428 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:54:18,429 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:54:28,692 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:54:28,693 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:56:47,638 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:56:47,639 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:56:58,788 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:56:58,789 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:57:19,493 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:57:19,493 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:57:29,528 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:57:29,529 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 13:57:40,042 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:57:40,044 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 13:57:52,517 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 13:57:52,517 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 14:22:15,062 | web | INFO | web | session_1762332669245_2g133s97y | hello | Hello and welcome to Ilora Retreats! How may I assist you today? | Intent: greet | Guest: True
+2025-11-05 14:23:24,288 | web | INFO | web | session_1762332669245_2g133s97y | Book a Stay | Hello! I’d be delighted to help you arrange a stay at Ilora Retreats.
+
+**How to book**  
+- You can reserve a luxury tent directly by contacting us (via email or the booking form on our website).  
+- Please let me know your preferred arrival date, length of stay (our minimum is **2 nights**), and the number of guests, and I’ll forward the details to our reservations team right away.
+
+If you have any special requests—such as a private dinner, spa treatment, or activity booking—just let me know and I’ll include those in your reservation.  
+
+Looking forward to creating a memorable safari experience for you! | Intent: book_room | Guest: True
+2025-11-05 14:24:33,577 | web | INFO | web | session_1762332863742_lgkxgnr8x | nidhi@gmail.com | Dear Guest,
+
+Thank you for reaching out. Could you please let me know how I may assist you with the email address **nidhi@gmail.com**? For example, are you looking to:
+
+- Add this address to a reservation or booking request?  
+- Receive our latest offers and newsletters?  
+- Contact us regarding a specific inquiry?
+
+Your clarification will help me provide the most accurate assistance.
+
+Warm regards,  
+**AI Assistant**  
+Ilora Retreats Concierge | Intent: greet | Guest: True
+2025-11-05 14:25:34,808 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:25:34,809 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 14:25:49,673 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:25:49,674 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 14:26:08,449 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:26:08,450 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 14:26:19,433 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:26:19,433 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 14:26:32,190 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:26:32,191 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 14:26:47,000 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 14:26:47,000 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:10:18,818 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0), using vector fallback.
+2025-11-05 15:10:18,911 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-11-05 15:10:36,322 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-11-05 15:10:36,322 | QAAgent | INFO | FAISS retriever loaded.
+2025-11-05 15:10:36,323 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:10:50,334 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:10:50,335 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:11:10,920 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:11:10,921 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:11:22,255 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:11:22,255 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:11:36,529 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:11:36,530 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:11:49,652 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:11:49,653 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:22:37,282 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:22:37,284 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:22:50,843 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:22:50,845 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:23:09,178 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:23:09,179 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:23:20,966 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:23:20,967 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 15:23:34,100 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:23:34,101 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 15:23:45,914 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 15:23:45,915 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:27:06,665 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:27:06,666 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:27:18,900 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:27:18,901 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:27:41,976 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:27:41,977 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:27:49,012 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0)
+2025-11-05 16:27:49,013 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:28:03,628 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:28:03,629 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:28:10,676 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0)
+2025-11-05 16:28:10,677 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:50:48,607 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:50:48,608 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:51:09,543 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:51:09,545 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:51:38,218 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:51:38,220 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:51:58,994 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:51:58,995 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 16:52:25,475 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:52:25,511 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 16:52:47,716 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 16:52:47,716 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:00:07,660 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:00:07,663 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:00:21,151 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:00:21,152 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:00:46,730 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:00:46,731 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:01:07,142 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:01:07,145 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:01:24,514 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:01:24,516 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:01:48,470 | QAAgent | WARNING | Sheets load failed: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=7.0)
+2025-11-05 17:01:48,471 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:08:32,301 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:08:32,303 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:08:46,692 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:08:46,693 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:08:58,381 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:08:58,383 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:09:10,043 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:09:10,044 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:10:44,610 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:10:44,611 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:11:01,407 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:11:01,408 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-05 17:11:21,199 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:11:21,203 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-05 17:11:38,779 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-05 17:11:38,779 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 11:49:04,940 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:49:04,943 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 11:49:16,364 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:49:16,365 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 11:49:39,043 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:49:39,044 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 11:49:53,204 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:49:53,205 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 11:50:06,688 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:50:06,690 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 11:50:18,362 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 11:50:18,364 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 13:11:56,164 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:11:56,165 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 13:12:09,414 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:12:09,419 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 13:12:32,033 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:12:32,034 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 13:12:48,092 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:12:48,094 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 13:13:01,190 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:13:01,192 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 13:13:13,809 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 13:13:13,810 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:47:12,703 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:47:12,703 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:47:29,776 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:47:29,776 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:47:57,051 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:47:57,052 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:48:10,890 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:48:10,891 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:48:23,127 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:48:23,128 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:48:37,104 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:48:37,105 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:50:36,138 | web | INFO | web | karan@gmail.com | bring me a wine | I'm sorry, I couldn't process that right now. | Intent: payment_request | Guest: True
+2025-11-06 16:51:15,059 | web | INFO | web | karan@gmail.com | you cant bring me wine? | I'm sorry, I couldn't process that right now. | Intent: ask_room_types | Guest: True
+2025-11-06 16:57:06,152 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:57:06,153 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:57:18,380 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:57:18,381 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:57:35,236 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:57:35,238 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:57:46,812 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:57:46,813 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 16:58:00,635 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:58:00,636 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready.
+2025-11-06 16:58:12,052 | QAAgent | INFO | Loaded Sheets data on init.
+2025-11-06 16:58:12,053 | QAAgent | INFO | ILORA RETREATS ConciergeBot ready with LLM.
+2025-11-06 17:08:19,484 | web | INFO | web | karan@gmail.com | yes raise the request | I'm sorry, I couldn't process that right now. | Intent: ask_room_pricing | Guest: True
+2025-11-06 17:08:44,703 | web | INFO | web | karan@gmail.com | hello | I'm sorry, I couldn't process that right now. | Intent: greet | Guest: True

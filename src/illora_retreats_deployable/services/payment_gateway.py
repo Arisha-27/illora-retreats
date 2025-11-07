@@ -37,11 +37,8 @@ COMPLIMENTARY_ITEMS = set(MENU.get("complimentary", []))
 # Room pricing (still fixed in INR)
 # -----------------------------
 RAW_ROOM_PRICING = {
+    "Luxury Tent": 50000,
     "Safari Tent": 12000,
-    "Star Bed Suite": 18000,
-    "double room": 10000,
-    "suite": 34000,
-    "family": 27500
 }
 ROOM_PRICING = {k.lower(): v for k, v in RAW_ROOM_PRICING.items()}
 

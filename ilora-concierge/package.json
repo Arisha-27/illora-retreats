@@ -1,0 +1,25 @@
+{
+  "name": "ilora-concierge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "lucide-react": "^0.552.0",
+    "tailwind": "^2.3.1",
+    "react" : "^18.2.0",
+    "react-dom": "^18.2.0"
+
+  }
+}

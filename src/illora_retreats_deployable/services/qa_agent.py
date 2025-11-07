@@ -261,6 +261,7 @@ class ConciergeBot:
             if session_key and session_key in user_session:
                 return session_key, user_session[session_key]
         return None, None
+    
     def _build_prompt(self, hotel_data: str, query: str, user_profile_text: str = "", recent_conversation: str = "") -> str:
         agent_name = "AI Assistant"
         agents_file = os.path.join("data", "agents.json")
@@ -274,21 +275,22 @@ class ConciergeBot:
         except Exception:
             pass
 
-        rules_text = ""
-        if self.dos_donts:
-            rules_text = "\n\n📋 **Important Communication Rules:**\n"
-            for idx, entry in enumerate(self.dos_donts, start=1):
-                do = str(entry.get("do", "")).strip()
-                dont = str(entry.get("dont", "")).strip()
-                if do:
-                    rules_text += f"- ✅ Do: {do}\n"
-                if dont:
-                    rules_text += f"- ❌ Don't: {dont}\n"
+        
+        #rules_text = ""
+        #if self.dos_donts:
+            #rules_text = "\n\n📋 **Important Communication Rules:**\n"
+            #for idx, entry in enumerate(self.dos_donts, start=1):
+                #do = str(entry.get("do", "")).strip()
+                #dont = str(entry.get("dont", "")).strip()
+                #if do:
+                    #rules_text += f"- ✅ Do: {do}\n"
+                #if dont:
+                    #rules_text += f"- ❌ Don't: {dont}\n"
 
         campaigns_text = ""
         if self.campaigns:
             campaigns_text = "\n\n📣 **Active Campaigns / Promos (summary):**\n"
-            for c in self.campaigns[:5]:
+            for c in self.campaigns[:1]:
                 title = c.get("Name") or c.get("Title") or c.get("Campaign") or ""
                 desc = c.get("Description") or c.get("Desc") or c.get("Details") or ""
                 if title or desc:
@@ -297,7 +299,7 @@ class ConciergeBot:
         menu_text = ""
         if self.menu_rows:
             menu_text = "\n\n📜 **Menu / Items (sample):**\n"
-            for c in self.menu_rows[:20]:
+            for c in self.menu_rows[:]:
                 item = c.get("Item") or c.get("Name") or c.get("Title") or ""
                 price = c.get("Price") or c.get("price") or ""
                 typ = c.get("Type") or c.get("Category") or ""
@@ -316,28 +318,31 @@ class ConciergeBot:
 
         recent_conv_text = f"\n\nRecent Conversation (most recent messages):\n{recent_conversation}" if recent_conversation else ""
         user_profile_block = f"\n\nGuest Profile (from session):\n{user_profile_text}" if user_profile_text else ""
-
+    
         prompt = (
             f"You are an AI agent named {agent_name} for the user {user_profile_block}, a knowledgeable, polite, and concise concierge assistant at *ILORA RETREATS*, "
+            f"ILORA RETREATS have only LUXURY TENTS in room types and have 14 rooms in total."
             f"The following is the earlier chat {recent_conv_text} you need to reply accordingly"
             f"a premium hotel known for elegant accommodations, gourmet dining, rejuvenating spa treatments, "
+            f"Ilora Retreats is a luxury safari camp in Kenya’s Masai Mara, near Olkiombo Airstrip, offering 14 fully equipped tents with en‑suite bathrooms, private verandas, and accessible facilities. Guests can enjoy a pool, spa, gym, yoga, bush dinners, and stargazing, with activities like game drives, walking safaris, hot air balloon rides, and Maasai cultural experiences. Full-board rates start around USD 500–650 per night, with premium activities and beverages extra. The retreat emphasizes sustainability, blending nature with comfort, creating an immersive safari experience."
             f"a fully-equipped gym, pool access, 24x7 room service, meeting spaces, and personalized hospitality.\n\n"
             "Answer guest queries using the Hotel Data and the Menu given below. If the data does not contain the answer, you may draw on general knowledge, "
             "but remember **DO NOT MAKE FALSE FACTS**. If unsure, ask clarifying questions. DO NOT GIVE PHONE NUMBERS unless very necessary.\n\n"
             f"Agent Name: {agent_name}\n\n"
             f"Hotel Data (most relevant excerpts):\n{hotel_data}\n\n"
             f"{menu_text}\n\n"
-            f"{user_profile_block}\n\n"
-            f"{recent_conv_text}\n\n"
             f"Guest Query: {query}\n"
-            f"{rules_text}\n"
             f"{campaigns_text}\n"
-            "\n\nProvide a helpful, concise response."
+            f"Rules:\n"
+            f"1. Do NOT hallucinate or provide inaccurate information.\n"
+            f"2. If the answer is not available, politely state so and raise a ticket to the appropriate staff.\n"
+            f"3. Authority boundaries must be respected: maintenance, billing, or managerial approvals are required for changes."
+            f"\n\nProvide a helpful, accurate, and concise response based on the data and rules above"
         )
 
         return prompt
     
-    def ask(self, query: str, user_type=None, user_session=None, session_key=None) -> str:
+    def ask(self, query: str, user_type=None, user_session=None, session_key=None, user_data = None) -> str:
         print(f"[DEBUG] >>> ask: {query}")
         sess_key, sess_obj = self._extract_session_object(user_session, session_key)
 
@@ -360,7 +365,7 @@ class ConciergeBot:
 
         hotel_data = "\n".join(d["page_content"] for d in docs[:5]) if docs else "No direct matches."
 
-        user_profile_text = self._format_user_session_summary(sess_obj) if sess_obj else ""
+        user_profile_text = user_data
         recent_conversation = self._format_conversation_for_prompt(self.get_recent_history(sess_key)) if sess_key else ""
 
         prompt = self._build_prompt(hotel_data, query, user_profile_text, recent_conversation)
