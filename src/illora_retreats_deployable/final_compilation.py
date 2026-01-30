@@ -1470,6 +1470,14 @@ async def chat(req: ChatReq):
         return ChatResp(reply="⚠️ Internal Server Error", reply_parts=["Error"], intent=None, actions=ChatActions())
 
 # ------------------------- Run locally -------------------------
+# Make sure 'app' is defined above in your file, e.g., app = FastAPI()
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("final_compilation:app", host="0.0.0.0", port=int(os.environ.get("PORT", 8000)), reload=True)
+    import os
+    
+    # Get the port from the environment, default to 10000 for Render
+    port = int(os.environ.get("PORT", 10000))
+    
+    # Run the app object directly, and turn OFF reload
+    uvicorn.run(app, host="0.0.0.0", port=port)
