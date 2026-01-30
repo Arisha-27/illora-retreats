@@ -67,3 +67,5 @@ python-multipart
 azure-ai-inference
 azure-core
 langchain_openai
+google-generativeai
+langchain_google_genai

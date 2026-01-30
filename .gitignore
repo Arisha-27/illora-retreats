@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+.env
+
+# Data / generated
+data/vector_store/
+summary_log.jsonl
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+
+# Backups
+*.bak
+*.old
+

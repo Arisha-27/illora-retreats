@@ -103,11 +103,16 @@ FRONTEND_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "https://ai-chieftain.webisdomtech.com"
+    "https://your-firebase-hosting-domain.web.app",
+    "https://your-firebase-hosting-domain.firebaseapp.com",
+    "http://localhost:3000",
+    "https://storage.googleapis.com/ilora-frontend-ornate-veld-477511-n8",
+    "http://localhost:5173/ilora-frontend-ornate-veld-477511-n8/"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=FRONTEND_ORIGINS,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
@@ -123,7 +128,6 @@ try:
         })
         TOTAL_TENTS = config.get("total_tents", 14)
 except Exception as e:
-    logger.warning(f"Could not load room config, using defaults: {e}")
     ROOM_PRICES = {"Luxury Tent": 50000}
     TOTAL_TENTS = 14
 
@@ -726,28 +730,6 @@ async def sse_events(request: Request):
     headers = {"Cache-Control": "no-cache", "X-Accel-Buffering": "no"}
     return StreamingResponse(event_generator(q), headers=headers, media_type="text/event-stream")
 
-
-
-# ------------------------- Pydantic Models -------------------------
-class ChatReq(BaseModel):
-    message: str
-    is_guest: Optional[bool] = False
-    session_id: Optional[str] = None
-    email: Optional[str] = None
-
-class ChatActions(BaseModel):
-    show_booking_form: bool = False
-    addons: List[str] = Field(default_factory=list)
-    payment_link: Optional[str] = None
-    pending_balance: Optional[Dict[str, Any]] = None
-
-class ChatResp(BaseModel):
-    reply: str
-    reply_parts: Optional[List[str]] = None
-    intent: Optional[str] = None
-    actions: ChatActions = Field(default_factory=ChatActions)
-    media_urls: Optional[List[str]] = None
-
 menu = []
 room_alloted = ''
 
@@ -800,6 +782,8 @@ async def chat(req: ChatReq):
         user_number = session_key
         
         print(f"[SESSION STATE] Stage: {stage}, User: {session_key}")
+        
+
         
         # ==================== AUTHENTICATION FLOW ====================
         
@@ -1166,9 +1150,10 @@ async def chat(req: ChatReq):
                         "🔒 This service is exclusive to our guests.\n\n"
                         "Would you like to book a stay with us? Reply *book* to see available tents!"
                     )
+
                 elif intent == "payment_request" or "book" in incoming_msg.lower():
                     user_session["stage"] = "show_property"
-                    response = "🌿 Let me show you our beautiful retreat..."
+                    #response = "🌿 Let me show you our beautiful retreat..."
                 else:
                     try:
                         answer = outroom_bot.ask(
@@ -1199,7 +1184,7 @@ async def chat(req: ChatReq):
                 if available_tents > 0:
                     user_session["stage"] = "booking_nights"
                     text_response_part2 = (
-                        f"✨ We have *{available_tents} luxury tents* available out of {TOTAL_TENTS}!\n\n"
+                        f"✨ We have  luxury tents available \n\n"
                         f"💰 *Rate:* ₹{ROOM_PRICES['Luxury Tent']:,}/night\n"
                         f"(Approximately USD 500-650)\n\n"
                         "✅ *Includes:*\n"
