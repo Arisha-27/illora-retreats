@@ -346,31 +346,39 @@ def get_latest_session(user_sessions: Dict[str, Any]) -> Tuple[Optional[str], Op
         return latest_key, user_sessions.get(latest_key)
     return None, None
 
+import os  # Ensure this is imported at the top of your file
+
 def send_password_email(email: str, password: str, user_name: str = "User") -> bool:
     """
-    Send password to user via SMTP email
+    Send password to user via SMTP email using secure environment variables.
     """
     try:
         import smtplib
         from email.mime.text import MIMEText
         from email.mime.multipart import MIMEMultipart
         
-        # SMTP Configuration - Update with your credentials
-        SMTP_SERVER = "smtp.gmail.com"  # or your SMTP server
-        SMTP_PORT = 587
-        SMTP_USERNAME = "atharvkyt@gmail.com"  # Your email
-        SMTP_PASSWORD = "Atharv@456"     # Your app password
-        SENDER_EMAIL = "atharvkyt@gmail.com"
-        SENDER_NAME = "Atharv Kumar"
-        
+        # --- SECURE CONFIGURATION ---
+        # Load these from Environment Variables (set in .env file or system terminal)
+        SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com") # Default to gmail if not set
+        SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
+        SMTP_USERNAME = os.getenv("SMTP_USERNAME")
+        SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
+        SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+        SENDER_NAME = os.getenv("SENDER_NAME", "Support Team")
+
+        # Validation: Check if critical keys are missing
+        if not all([SMTP_USERNAME, SMTP_PASSWORD, SENDER_EMAIL]):
+            print("Error: SMTP environment variables are missing.")
+            return False
+
         # Create message
         message = MIMEMultipart("alternative")
         message["Subject"] = "Password Recovery - Your Account Password"
         message["From"] = f"{SENDER_NAME} <{SENDER_EMAIL}>"
         message["To"] = email
         
-        # Email body
-        text_body = f"""
+        # Email body (HTML version is usually better for modern clients)
+        text_body = f"""\
 Hello {user_name},
 
 You requested to recover your password.

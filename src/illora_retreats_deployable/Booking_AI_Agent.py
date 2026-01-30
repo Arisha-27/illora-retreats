@@ -41,9 +41,9 @@ class Booking_IloraRetreatsConciergeBot:
         # --- GEMINI CONFIGURATION ---
         # Replace with your actual Google API Key
         # You can get one here: https://aistudio.google.com/app/apikey
-        self.llm_api_key = "AIzaSyDbGWSC5pUmf1Vo3HFfeNO6tFlQ-pmLIhc"
+        self.llm_api_key = os.environ.get("SELF_LLM")
         
-        if not self.llm_api_key or "AIzaSyDbGWSC5pUmf1Vo3HFfeNO6tFlQ-pmLIhc" in self.llm_api_key:
+        if not self.llm_api_key :
             logger.warning("⚠️ Google API Key is missing! Please set GOOGLE_API_KEY in Config or Environment.")
 
         # Configure the Gemini Client

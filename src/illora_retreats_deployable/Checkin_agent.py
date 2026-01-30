@@ -38,15 +38,11 @@ class CheckIn_IloraRetreatsConciergeBot:
 
         self.config = Config
 
-        # --- GEMINI CONFIGURATION ---
-        # Replace with your actual Google API Key
-        # You can get one here: https://aistudio.google.com/app/apikey
-        self.llm_api_key = "AIzaSyD7HMICKVvrR8kzLgc0T8vv3KU6qyrxaVw"
+        self.llm_api_key = os.environ.get("SELF_LLM")
         
-        if not self.llm_api_key or "AIzaSyD7HMICKVvrR8kzLgc0T8vv3KU6qyrxaVw" in self.llm_api_key:
+        if not self.llm_api_key:
             logger.warning("⚠️ Google API Key is missing! Please set GOOGLE_API_KEY in Config or Environment.")
 
-        # Configure the Gemini Client
         genai.configure(api_key=self.llm_api_key)
         
         # Using Gemini 1.5 Pro (Best for complex reasoning and handling large data)
