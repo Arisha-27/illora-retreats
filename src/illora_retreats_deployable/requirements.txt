@@ -1,71 +1,9 @@
-# Precompiled versions (avoid source build)
-numpy
-scipy
-scikit-learn
-faiss-cpu
-
-# Core Dependencies
-openai
-langchain
-langchain-community
-pandas
-python-dotenv
-tiktoken
-sentence-transformers
-
-
-# Chatbot, Web, and Backend
-streamlit
-flask
-fastapi
-twilio
-pyyaml
-
-# Audio + Voice I/O
-SpeechRecognition
-pydub
-pygame
-gTTS
-
-# QR Code + Image
-qrcode
-Pillow
-
-# Charts & UI
-plotly
-
-# Payments
-stripe
-
-# Other utilities
-joblib
-requests
-
-
-PyMuPDF
-frontend
-python-docx
-tiktoken
-pdfplumber
-ratelimit
-fuzzywuzzy[speedup]
-python-multipart
-groq
-
 fastapi
 uvicorn[standard]
-sqlalchemy
 pydantic
 python-dotenv
-stripe
-qrcode
-Pillow
+requests
+sqlalchemy
 psycopg2-binary
+stripe
 twilio
-python-multipart
-
-azure-ai-inference
-azure-core
-langchain_openai
-google-generativeai
-langchain_google_genai
